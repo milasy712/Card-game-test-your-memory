@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Game - Test your memory!</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1></h1>
+    <h2></h2>
+    <div class="wrapper">
+        <div class="stats-container">
+            <div id="moves-count"></div>
+            <div id="time"></div>
+        </div>
+        <div class="game-container"></div>
+        <button id="stop" class="hide">Stop Game</button>
+    </div>
+    <div class="controls-container">
+        <div id="hero">
+            <h1>Memory Game Card by Mila Syavira D.</h1>
+            <p></p>
+            <p id="result"></p>
+            <button id="start">Let's Play!</button>
+        </div>
+
+        <style>
+            #hero {
+                height: 500px;
+                width: 100%;
+                background-color: lightblue;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
